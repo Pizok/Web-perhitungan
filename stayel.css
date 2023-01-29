@@ -1,0 +1,9 @@
+body {
+    display: flex;
+    justify-content: space-between;
+}
+       
+
+#itung {
+   border: 3px inset black; 
+}
