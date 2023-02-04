@@ -1,9 +1,12 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
        
 
-#itung {
+#border b  {
    border: 3px inset black; 
+   color: rgb(79, 79, 220);
+   font-weight: bold;
 }
