@@ -1,16 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Quicksand&display=swap');
+
+body {
+    background: #F5F6F0;
+}
 
 #homebutton {
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-    
+    margin: 13px 47px;
 }
 
-#n {
+ul a {
     display: flex;
-    color: rgb#242121;
-    
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #242121;
 }
 
-.header {
-    margin-left: 20px;
+.h {
+    cursor: pointer;
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 13px 47px;
+    list-style: none;
+}
+
+.h li {
+    display: inline;
+}
+
+.h li a{
+    color: rgb#242121;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.home li i{
+    color: #242121;
+}
+
+.n {
+    list-style: none;
+}
+
+.n li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.n li a:hover {
+    color: #63A15F;
 }
