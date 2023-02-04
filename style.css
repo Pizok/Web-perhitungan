@@ -1,12 +1,10 @@
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+body{
+    color: azure;
 }
-       
 
-#border b  {
-   border: 3px inset black; 
-   color: rgb(79, 79, 220);
-   font-weight: bold;
+
+#homebutton {
+    color: white;
+    border: 3px, chocolate;
+    border-radius: height 30;
 }
