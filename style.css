@@ -7,16 +7,16 @@ body {
     url(/Asset/Ellipse\ title.svg),
     url(/Asset/Ellipse\ big.svg);
     background-repeat: no-repeat;
-    background-position: 
-    top left,
-    bottom left,
-    center left,
-    top right;
+    background-position:
+        top left,
+        bottom left,
+        6% center,
+        top right;
     background-size: 
-    40%,
-    40%,
-    40%,
-    10%;
+        30%,
+        30%,
+        35%,
+        43%;;
     margin: 0px;
     padding: 0px;
 }
@@ -60,7 +60,7 @@ ul a {
     cursor: pointer;
     margin-right:auto;
     display: flex;
-    position: fixed;
+    position: absolute;
     justify-content: space-between;
     align-items: flex-end;
     list-style: none;
@@ -87,3 +87,29 @@ ul a {
     color: #63A15F;
 }
 
+#content {
+    display: flex;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text h1 {
+    font-size: 84px;
+    font-weight: 700;
+    color: #242121;
+}
+
+.text .solve {
+    list-style: none;
+    background-color: #63A15F;
+    font-size: 12px;
+    font-weight: 800;
+    color: #F5F6F0;
+    border: none;
+    padding: 18px 27px;
+}
+
+.calimage {
+    max-width: 700px;
+    max-height: 700px;
+}
