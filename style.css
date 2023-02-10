@@ -2,30 +2,13 @@
 
 body {
     background: #F5F6F0;
+    background-image: url(/Asset/Ellipse\ above\ 1.svg) no-repeat ;
     margin: 0px;
     padding: 0px;
 }
 
-.background{
-    position: relative;
-    margin: 0px;
-    padding: 0px;
-    z-index: -10;
-}
-
-.above {
-    float: left;
-    width: auto;
-}
-
-.big {
-    float: right;
-    width: 695.63px;
-}
 #header {
     background-color: #63A15F;
-    position: absolute;
-    z-index: 2;
 }
 
 .button {
