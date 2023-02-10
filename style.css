@@ -2,7 +2,21 @@
 
 body {
     background: #F5F6F0;
-    background-image: url(/Asset/Ellipse\ above\ 1.svg) no-repeat ;
+    background-image: url(/Asset/Ellipse\ above\ 1.svg),
+    url(/Asset/Ellipse\ lower.svg),
+    url(/Asset/Ellipse\ title.svg),
+    url(/Asset/Ellipse\ big.svg);
+    background-repeat: no-repeat;
+    background-position: 
+    top left,
+    bottom left,
+    center left,
+    top right;
+    background-size: 
+    40%,
+    40%,
+    40%,
+    10%;
     margin: 0px;
     padding: 0px;
 }
@@ -30,6 +44,7 @@ ul a {
 
 .n {
     list-style: none;
+    margin-left: 20px;
 }
 
 .n li {
