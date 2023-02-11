@@ -14,7 +14,7 @@ body {
     background-position:
         top left,
         bottom left,
-        6% 55%,
+        8% 55%,
         top right;
     background-size: 
         30%,
@@ -118,7 +118,7 @@ ul a {
     font-size: 4.519vw;
     font-weight: 700;
     color: #242121;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .text .solve {
@@ -130,6 +130,10 @@ ul a {
     color: #F5F6F0;
     border: none;
     padding: 18px 27px;
+}
+
+.solve:hover {
+    background-color: #579052;
 }
 
 .calimage {
