@@ -14,7 +14,7 @@ body {
     background-position:
         top left,
         bottom left,
-        6% center,
+        6% 55%,
         top right;
     background-size: 
         30%,
@@ -104,17 +104,21 @@ ul a {
     position: relative;
     font-family: 'Montserrat', sans-serif;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap-reverse;
     margin: 0 auto;
+}
+
+.text {
+    margin: 0px 67.25px;
 }
 
 .text h1 {
     font-size: 4.519vw;
     font-weight: 700;
     color: #242121;
-    margin-bottom: 22px;
+    margin-bottom: 20px;
 }
 
 .text .solve {
@@ -133,5 +137,5 @@ ul a {
     min-width: 18.392vw;
     max-height: 31.529vw;
     min-height: 18.392vw;
-    margin: 0px 0px 0px 269px;
+    margin: 0px 67.25px;
 }
