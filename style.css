@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Quicksand&display=swap');
 
+html {
+    font-size: 16px;
+}
+
 body {
     background: #F5F6F0;
     background-image: url(Asset/Ellipse\ above\ 1.svg),
@@ -80,7 +84,7 @@ ul a {
     color: rgb#242121;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 600;
     align-items: flex-start;
 }
@@ -89,18 +93,24 @@ ul a {
     color: #63A15F;
 }
 
-#content {
+#maincontent {
+    position: relative;
+
+}
+
+.content {
     display: flex;
     position: relative;
     font-family: 'Montserrat', sans-serif;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap-reverse;
+    margin: aut;
 }
 
 .text h1 {
-    font-size: 4.414rem;
+    font-size: 5.375rem;
     font-weight: 700;
     color: #242121;
     margin-bottom: 22px;
@@ -109,15 +119,18 @@ ul a {
 .text .solve {
     list-style: none;
     background-color: #63A15F;
-    font-size: 0.841vw;
-    font-weight: 800;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     color: #F5F6F0;
     border: none;
     padding: 18px 27px;
 }
 
 .calimage {
-    max-width: 600px;
-    max-height: 600px;
-    margin: 0px 110px 0px 159px;
+    max-width: 31.529vw;
+    min-width: 18.392vw;
+    max-height: 31.529vw;
+    min-height: 18.392vw;
+    margin: 0px 0px 0px 269px;
 }
