@@ -22,7 +22,7 @@ body {
         35%,
         43%;
     margin: 0px;
-    padding: 0px;
+    padding: 1px;
 }
 
 button {
@@ -43,7 +43,7 @@ ul a {
     position: relative;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 600;
     color: #242121;
 }
@@ -95,7 +95,8 @@ ul a {
 
 #maincontent {
     position: relative;
-
+    top: 9.984vh;
+    bottom: 9.984vh;
 }
 
 .content {
@@ -106,11 +107,11 @@ ul a {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap-reverse;
-    margin: aut;
+    margin: 0 auto;
 }
 
 .text h1 {
-    font-size: 5.375rem;
+    font-size: 4.519vw;
     font-weight: 700;
     color: #242121;
     margin-bottom: 22px;
