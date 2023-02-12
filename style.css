@@ -103,9 +103,8 @@ ul a {
     position: relative;
     font-family: 'Montserrat', sans-serif;
     align-items: center;
+    justify-items: center;
     justify-content: space-around;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
     margin: 0 auto;
 }
 
@@ -141,18 +140,19 @@ ul a {
 
 .calimage {
     grid-area: img;
-    width: 31.529vw;
+    width: 600px;
     min-width: 400px;
-    height: 31.529vw;
+    height: 600px;
     min-height: 400px;
 }
 
 @media only screen and (max-width: 1024px) {
     .body {
+        background-image: none !important;
         background-position:
             top left,
             top right,
-            top right;
+            -999999 top;
         background-size:
             max(min(300px), 20%),
             30%,
@@ -164,9 +164,14 @@ ul a {
         grid-template-areas: 
             'img' 
             'head';
-        grid-gap: 3.363vw;
+        grid-gap: 3rem;
+        justify-items: center;
     }
 
+    .calimage {
+        width: 100%;
+        height: 100%;
+    }
     
 }
 
