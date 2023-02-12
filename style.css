@@ -8,18 +8,15 @@ body {
     background: #F5F6F0;
     background-image: url(Asset/Ellipse\ above\ 1.svg),
     url(Asset/Ellipse\ lower.svg),
-    url(Asset/Ellipse\ title.svg),
     url(Asset/Ellipse\ big.svg);
     background-repeat: no-repeat;
     background-position:
         top left,
-        bottom left,
-        8% 55%,
+        20% bottom,
         top right;
     background-size: 
+        max(min(300px), 20%),
         30%,
-        30%,
-        35%,
         43%;
     margin: 0px;
     padding: 1px;
@@ -97,6 +94,7 @@ ul a {
     position: relative;
     top: 9.984vh;
     bottom: 9.984vh;
+    z-index: 100;
 }
 
 .content {
@@ -112,10 +110,14 @@ ul a {
 
 .text {
     margin: 0px 67.25px;
+    background-image: url(Asset/Ellipse\ title.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 60%;
 }
 
 .text h1 {
-    font-size: 4.519vw;
+    font-size: max(min(3rem), 4.519vw);
     font-weight: 700;
     color: #242121;
     margin-bottom: 10px;
@@ -129,7 +131,7 @@ ul a {
     font-weight: 700;
     color: #F5F6F0;
     border: none;
-    padding: 18px 27px;
+    padding: max(min(10px), 0.946vw) max(min(19px), 1.419vw);
 }
 
 .solve:hover {
@@ -138,8 +140,8 @@ ul a {
 
 .calimage {
     max-width: 31.529vw;
-    min-width: 18.392vw;
+    min-width: 350px;
     max-height: 31.529vw;
-    min-height: 18.392vw;
+    min-height: 350px;
     margin: 0px 67.25px;
 }
