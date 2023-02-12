@@ -40,7 +40,7 @@ ul a {
     position: relative;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 16px;
     font-weight: 600;
     color: #242121;
 }
@@ -98,7 +98,8 @@ ul a {
 }
 
 .content {
-    display: flex;
+    display: grid;
+    grid-template-areas: "head img";
     position: relative;
     font-family: 'Montserrat', sans-serif;
     align-items: center;
@@ -109,18 +110,18 @@ ul a {
 }
 
 .text {
-    margin: 0px 67.25px;
+    grid-area: head;
     background-image: url(Asset/Ellipse\ title.svg);
-    background-size: 100%;
+    background-size: max(min(50%), 90%);
     background-repeat: no-repeat;
-    background-position: 60%;
+    background-position: 50% right;
 }
 
 .text h1 {
     font-size: max(min(3rem), 4.519vw);
     font-weight: 700;
     color: #242121;
-    margin-bottom: 10px;
+    margin: 10px 0px;
 }
 
 .text .solve {
@@ -139,9 +140,38 @@ ul a {
 }
 
 .calimage {
-    max-width: 31.529vw;
-    min-width: 350px;
-    max-height: 31.529vw;
-    min-height: 350px;
-    margin: 0px 67.25px;
+    grid-area: img;
+    width: 31.529vw;
+    min-width: 400px;
+    height: 31.529vw;
+    min-height: 400px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .body {
+        background-position:
+            top left,
+            top right,
+            top right;
+        background-size:
+            max(min(300px), 20%),
+            30%,
+            0px;
+    }
+
+    .content {
+        display: grid;
+        grid-template-areas: 
+            'img' 
+            'head';
+        grid-gap: 3.363vw;
+    }
+
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .button {
+            visibility: hidden;
+        }
 }
