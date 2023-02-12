@@ -92,6 +92,8 @@ ul a {
 
 #maincontent {
     position: relative;
+    top: 9.984vh;
+    bottom: 9.984vh;
     z-index: 100;
 }
 
@@ -115,7 +117,7 @@ ul a {
 }
 
 .text h1 {
-    font-size: max(min(3rem), 4.519vw);
+    font-size: max(min(2rem), 4.519vw);
     font-weight: 700;
     color: #242121;
     margin: 10px 0px;
