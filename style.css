@@ -91,9 +91,11 @@ ul a {
 }
 
 #maincontent {
-    position: relative;
-    top: 9.984vh;
-    bottom: 9.984vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
     z-index: 100;
 }
 
@@ -105,7 +107,6 @@ ul a {
     align-items: center;
     justify-items: center;
     justify-content: space-around;
-    margin: 20px auto;
 }
 
 .text {
@@ -114,6 +115,7 @@ ul a {
     background-size: max(min(50%), 90%);
     background-repeat: no-repeat;
     background-position: 50% right;
+    margin-right: 7.068vw;
 }
 
 .text h1 {
@@ -141,9 +143,10 @@ ul a {
 .calimage {
     grid-area: img;
     width: 600px;
-    min-width: 350px;
+    min-width: 300px;
     height: 600px;
-    min-height: 350px;
+    min-height: 300px;
+    margin-left: 7.068vw;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -172,6 +175,11 @@ ul a {
     .calimage {
         width: 90%;
         height: 90%;
+        margin: 0px;
+    }
+
+    .text {
+        margin: 0px;
     }
     
 }
