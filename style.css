@@ -92,8 +92,8 @@ ul a {
 
 #maincontent {
     position: relative; 
-    top: 9.984vh; 
-    bottom: 9.984vh;
+    top: 9.984vw; 
+    bottom: 9.984vw;
     z-index: 100;
 }
 
