@@ -175,6 +175,12 @@ ul a {
     .calimage {
         width: 90%;
         height: 90%;
+        margin: 0px;
+    }
+    
+    .text {
+      margin: 0px;
+    
     }
 
   
