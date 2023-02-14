@@ -91,11 +91,9 @@ ul a {
 }
 
 #maincontent {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+    position: relative; 
+    top: 9.984vh; 
+    bottom: 9.984vh;
     z-index: 100;
 }
 
@@ -175,11 +173,14 @@ ul a {
     .calimage {
         width: 90%;
         height: 90%;
-        margin: 0px;
     }
 
-    .text {
-        margin: 0px;
+    #maincontent {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        margin-right: -50%; 
+        transform: translate(-50%, -50%);
     }
     
 }
